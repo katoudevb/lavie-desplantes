@@ -1,0 +1,598 @@
+[02-May-2025 12:20:24 UTC] Cron reschedule event error for hook: woocommerce_cleanup_personal_data, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[02-May-2025 12:42:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php:348
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php on line 348
+[02-May-2025 12:48:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php:348
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php on line 348
+[02-May-2025 12:49:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php:348
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php on line 348
+[02-May-2025 12:55:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php:354
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#12 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php on line 354
+[02-May-2025 13:06:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php:354
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#12 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php on line 354
+[02-May-2025 13:10:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php:354
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#12 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php on line 354
+[02-May-2025 13:17:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php:354
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#12 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php on line 354
+[02-May-2025 13:18:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php:348
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php on line 348
+[02-May-2025 13:19:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php:348
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php on line 348
+[02-May-2025 13:20:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php:348
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php on line 348
+[02-May-2025 13:22:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php:348
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php on line 348
+[02-May-2025 13:22:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php:348
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php on line 348
+[02-May-2025 13:23:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php:354
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#12 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php on line 354
+[02-May-2025 14:27:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php:354
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#12 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php on line 354
+[02-May-2025 14:34:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php:354
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#12 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php on line 354
+[02-May-2025 14:38:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php:354
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#12 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php on line 354
+[02-May-2025 14:38:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php:354
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#12 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php on line 354
+[02-May-2025 14:38:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php:354
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#12 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php on line 354
+[02-May-2025 14:39:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php:354
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#12 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php on line 354
+[02-May-2025 14:39:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php:354
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#12 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php on line 354
+[03-May-2025 05:38:01 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 05:38:01 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 05:38:01 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 05:38:01 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 05:38:01 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 05:38:01 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 05:38:02 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 05:38:02 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 05:38:02 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 06:30:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php:348
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php on line 348
+[03-May-2025 06:33:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php:348
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/elementor/modules/ai/module.php on line 348
+[03-May-2025 07:39:39 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 07:39:48 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 07:39:50 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 07:41:29 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 07:41:31 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 07:42:07 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 07:42:08 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 07:51:05 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 08:03:50 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 08:03:53 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 08:03:54 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 08:28:35 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 08:28:43 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 08:29:29 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 08:44:30 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[03-May-2025 08:54:54 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 08:55:39 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 08:56:19 UTC] PHP Warning:  Undefined array key "" in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woocommerce/src/StoreApi/Utilities/PaymentUtils.php on line 109
+[03-May-2025 09:00:37 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 09:00:37 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 09:00:37 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 09:00:39 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 09:00:39 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 09:00:39 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 09:00:39 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 09:00:39 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[03-May-2025 09:00:39 UTC] PHP Fatal error:  Uncaught Error: Class "EverCompare\Frontend\Manage_Compare" not found in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php:602
+Stack trace:
+#0 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(267): woolentorBlocks_compare_button(Array)
+#1 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1292): WooLentorBlocks\Api\Api->get_post_data(Object(WP_REST_Request))
+#2 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/p...', Array, NULL)
+#3 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/rest-api.php(459): WP_REST_Server->serve_request('/woolentor/v1/p...')
+#5 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#8 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#10 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-includes/functions.php(1342): WP->main('')
+#11 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-blog-header.php(16): wp()
+#12 /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/index.php(17): require('/Users/katianab...')
+#13 {main}
+  thrown in /Users/katianabricotteaux/Local Sites/laviedesplantes/app/public/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/helper-functions.php on line 602
+[06-May-2025 07:41:35 UTC] Erreur d’événement de déplanification de tâche pour le crochet fs_data_sync_skt-templates. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"daily","args":[],"interval":86400}
